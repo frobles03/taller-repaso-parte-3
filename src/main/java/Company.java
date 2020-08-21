@@ -1,14 +1,19 @@
 import java.util.ArrayList;
+
 public class Company {
 
-    private String name;
-    private ArrayList<Departament>departamentArrayList;
+    protected String name;
+    protected ArrayList<Departament>departamentArrayList;
 
-    private String getName() {
+    protected void company(){
+        getName();
+        setName(name);
+    }
+    protected String getName() {
         return name;
     }
 
-    private void setName(String name) {
+    protected void setName(String name) {
         this.name = name;
     }
 }

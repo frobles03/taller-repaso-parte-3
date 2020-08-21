@@ -1,5 +1,5 @@
-public class Office {
-    public String address;
+public class Office extends Departament {
+    private String address;
 
 
     public String getAddress() {
